@@ -28,6 +28,7 @@ struct ContentView: View {
                                 
                             } label: {
                                 Label("Edit", systemImage: "square.add.pencil")
+                                    .font(.title2)
                             }.tint(.blue)
                         }
                         .swipeActions(edge:.leading) {
